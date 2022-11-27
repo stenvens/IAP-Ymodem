@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/download.o
+release/file.o
+release/clicklabel.o
+release/crc16ccitt.o
+release/qrc_res.o
+release/moc_mainwindow.o
+release/moc_download.o
+release/moc_clicklabel.o

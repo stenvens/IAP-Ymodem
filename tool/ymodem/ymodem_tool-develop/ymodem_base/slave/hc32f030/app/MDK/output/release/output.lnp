@@ -1,0 +1,20 @@
+--cpu Cortex-M0+
+".\output\release\system_hc32f030.o"
+".\output\release\startup_hc32f030.o"
+".\output\release\main.o"
+".\output\release\delay.o"
+".\output\release\ddl.o"
+".\output\release\gpio.o"
+".\output\release\interrupts_hc32f030.o"
+".\output\release\sysctrl.o"
+".\output\release\flash.o"
+".\output\release\adc.o"
+".\output\release\bsp_uart.o"
+".\output\release\bsp_sysclk.o"
+".\output\release\bsp_flash.o"
+".\output\release\boot_iap.o"
+".\output\release\uart_config.o"
+--library_type=microlib --strict --scatter ".\output\release\output.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\release\output.map" -o .\output\release\output.axf

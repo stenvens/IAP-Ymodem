@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/download.o
+debug/file.o
+debug/clicklabel.o
+debug/crc16ccitt.o
+debug/qrc_res.o
+debug/moc_mainwindow.o
+debug/moc_download.o
+debug/moc_clicklabel.o

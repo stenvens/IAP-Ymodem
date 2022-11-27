@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: s stenvens, s, LIC=MPPLD-86FUD-HLYCL-0GHHV-28WH9-PAFG6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+C:\Users\stenvens\Desktop\ymodem_tool-develop\ymodem_pro\slave\stm32f103xe\app\MDK-ARM\app.uvprojx
+Project File Date:  10/06/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'app'
+assembling startup_stm32f103xe.s...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_it.c...
+compiling main.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling bsp_sysclk.c...
+compiling bsp_uart.c...
+compiling boot_iap.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling uart_config.c...
+linking...
+Program Size: Code=7280 RO-data=396 RW-data=52 ZI-data=1372  
+FromELF: creating hex file...
+After Build - User command #1: "..\Resource\MergeHEX.bat"
+C:\Users\stenvens\Desktop\ymodem_tool-develop\ymodem_pro\slave\stm32f103xe\app\MDK-ARM>rem 如果Keil安装位置非C盘，则设置为新的fromelf.exe位置 
+C:\Users\stenvens\Desktop\ymodem_tool-develop\ymodem_pro\slave\stm32f103xe\app\MDK-ARM>C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin -o "..\Output\App.bin" "..\MDK-ARM\app\app.axf" 
+系统找不到指定的路径。
+C:\Users\stenvens\Desktop\ymodem_tool-develop\ymodem_pro\slave\stm32f103xe\app\MDK-ARM>..\Resource\mergehex.exe --merge ..\Resource\BootLoader.hex   ..\MDK-ARM\app\app.hex    --output ..\Output\dest.hex  
+Parsing ..\Resource\BootLoader.hex file.
+Parsing ..\MDK-ARM\app\app.hex file.
+Merging files.
+Writing merged file.
+"app\app.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_app
+  C:/Users/stenvens/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>

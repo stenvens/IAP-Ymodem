@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Green_button_64px.png</file>
+        <file>style.qss</file>
+        <file>images/Light_blue_button_64px.png</file>
+        <file>images/Red_button_64px.png</file>
+        <file>images/Dark_blue_button_64px.png</file>
+        <file>images/refresh_72px.png</file>
+    </qresource>
+</RCC>
