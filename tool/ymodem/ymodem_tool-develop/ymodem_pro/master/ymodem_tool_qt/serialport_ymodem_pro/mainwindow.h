@@ -57,8 +57,6 @@ private slots:
     void slotShowDowndloadEnd(QString sMsg);
     void on_comboBox_transmitionMode_currentIndexChanged(int index);
 
-    void on_pushButton_openFile_clicked();
-
 private:
     void downloadStart();
     void downloadStop();
